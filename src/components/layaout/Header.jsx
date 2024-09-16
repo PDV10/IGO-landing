@@ -22,16 +22,12 @@ export default function Header() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3">
-      <div className="flex items-center justify-between text-blue-gray-900">
-        <Typography
-          as="a"
-          href="#"
-          variant="h6"
-          className="mr-4 cursor-pointer py-1.5"
-        >
-          Material Tailwind
-        </Typography>
+    <Navbar className="mx-auto max-w-screen-xl px-6 py-3 bg-black">
+      <div className="flex items-center justify-between text-white">
+        <img className="flex items-center justify-center m-0 p-2.5 w-10 h-auto"
+          src="../public/img/IGO-logo.png.png"
+          alt="IGO-logo"
+        />
         <div className="hidden lg:block">
           <NavList />
         </div>
@@ -66,9 +62,9 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center text-white  hover:text-blue-500 transition-colors"
         >
-          Pages
+          Inscríbete
         </a>
       </Typography>
       <Typography
@@ -79,9 +75,9 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center text-white hover:text-blue-500 transition-colors"
         >
-          Account
+          Conocenos
         </a>
       </Typography>
       <Typography
@@ -92,22 +88,9 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center text-white hover:text-blue-500 transition-colors"
         >
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium"
-      >
-        <a
-          href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
-        >
-          Docs
+          Cursos y carreras
         </a>
       </Typography>
     </ul>
