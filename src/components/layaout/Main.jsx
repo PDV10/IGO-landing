@@ -1,7 +1,8 @@
+import { Button } from "@material-tailwind/react";
 export default function Main() {
   return (
     <>
-      <h1>Main</h1>
+      <Button>Button</Button>
     </>
   );
 }
