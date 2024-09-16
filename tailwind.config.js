@@ -14,6 +14,10 @@ module.exports = withMT({
         "gris-claro": "#e8e8e8",
         "gris-oscuro": "#878787",
       },
+      screens: {
+        'sm': '320px',
+        'xl': '1280px',
+      },
     },
   },
   plugins: [],
