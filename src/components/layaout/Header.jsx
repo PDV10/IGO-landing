@@ -22,7 +22,7 @@ export default function Header() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3 bg-black">
+    <Navbar className="mx-auto max-w-screen-xl px-6 py-3 bg-black mt-4">
       <div className="flex items-center justify-between text-white">
         <img className="flex items-center justify-center m-0 p-2.5 w-10 h-auto"
           src="../public/img/IGO-logo.png.png"
@@ -62,7 +62,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center text-white  hover:text-blue-500 transition-colors"
+          className="flex items-center text-white hover:text-gray-500 transition-transform duration-50 hover:scale-125"
         >
           Inscríbete
         </a>
@@ -75,7 +75,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center text-white hover:text-blue-500 transition-colors"
+          className="flex items-center text-white hover:text-gray-500 transition-transform duration-50 hover:scale-125"
         >
           Conocenos
         </a>
@@ -88,7 +88,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center text-white hover:text-blue-500 transition-colors"
+          className="flex items-center text-white hover:text-gray-500 transition-transform duration-50 hover:scale-125"
         >
           Cursos y carreras
         </a>
