@@ -22,7 +22,7 @@ export default function Header() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3 bg-black mt-4 bg-opacity-100">
+    <Navbar className="mx-auto mt-2 lg:mt-5  w-[95%] max-w-screen-xl px-6 py-3 shadow-[0px_10px_30px_rgba(0,0,0,0.7)] bg-black  bg-opacity-85 border-none fixed left-1/2 transform -translate-x-1/2 z-10">
       <div className="flex items-center justify-between text-white">
         <img
           className="flex items-center justify-center m-0  w-10 h-auto"
