@@ -22,9 +22,9 @@ export default function Header() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3 bg-black mt-4">
+    <Navbar className="mx-auto max-w-screen-2xl px-6 py-3 bg-black mt-4">
       <div className="flex items-center justify-between text-white">
-        <img className="flex items-center justify-center m-0 p-2.5 w-10 h-auto"
+        <img className="flex items-center justify-center m-0  w-10 h-auto"
           src="../public/img/IGO-logo.png.png"
           alt="IGO-logo"
         />
