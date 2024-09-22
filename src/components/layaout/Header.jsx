@@ -88,7 +88,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#carrera"
           className="flex items-center text-white hover:text-gray-500 transition-transform duration-50 hover:scale-125"
         >
           Cursos y carreras
