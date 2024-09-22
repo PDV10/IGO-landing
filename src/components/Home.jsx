@@ -1,21 +1,23 @@
 export default function Home() {
   return (
-    <section className="relative min-h-screen bg-[url('./src/assets/IMG-MAIN-HOME-FONDO.jpg')] bg-cover bg-center flex justify-center items-center">
+    <section className="relative min-h-screen bg-[url('./src/assets/IMG-MAIN-HOME-FONDO.jpg')] bg-cover bg-center flex justify-center md:justify-start items-center">
       <div className="absolute bottom-0 left-0 w-full h-2/4 bg-gradient-to-t from-gray-100 to-transparent"></div>
 
-      <h1 className="text-6xl text-center sm:text-5xl md:text-6xl md:text-left md:pr-8 md:py-4 font-bold text-black absolute top-[20%] md:left-0 md:top-[20%] md:pl-[150px] lg:text-[70px] lg:top-[30%]">
-        <span>Descubre el arte culinario</span>
-      </h1>
+      <div className="relative flex flex-col items-center md:items-start text-center md:text-left md:pl-[9rem]">
+        <h1 className="sm:py-10 text-6xl sm:text-5xl md:text-6xl font-bold text-black md:py-4 lg:text-[4.375rem]">
+          <span>Descubre el arte culinario</span>
+        </h1>
 
-      <p className="text-2xl text-center sm:text-xl md:text-2xl md:text-left md:pr-8 md:py-4 md:mt-10 font-bold text-black absolute top-[33%] md:left-0 md:top-[33%] md:pl-[150px] whitespace-normal lg:text-[28px] lg:top-[45%]">
-        <span>Donde la tradición</span>
-        <br />
-        <span>se fusiona con la innovación</span>
-      </p>
+        <p className="text-2xl sm:text-xl md:text-3xl font-bold text-black whitespace-normal md:mt-10 lg:text-[1.75rem]">
+          <span>Donde la tradición</span>
+          <br />
+          <span>se fusiona con la innovación</span>
+        </p>
 
-      <button className="absolute left-1/2 top-[60%] md:left-[220px] md:top-[55%] lg:top-[65%] transform -translate-x-1/2 bg-black text-white font-bold py-[10px] px-4 text-lg md:text-[24px] rounded-lg transition-all duration-300 hover:bg-gray-800 hover:scale-105">
-        Ver más
-      </button>
+        <button className="mt-36 bg-black text-white font-bold py-[0.625rem] px-4 text-lg md:text-[1.5rem] rounded-lg transition-all duration-300 hover:bg-gray-800 hover:scale-105">
+          Ver más
+        </button>
+      </div>
     </section>
   );
 }
