@@ -50,7 +50,7 @@ export default function Carrera() {
         {carreraActual === "Cocinero" ? (
           <CarreraCard
             carrera={`${carreraActual} profesional`}
-            titulo="Tu futuro en la cocina comiena aquí"
+            titulo="Tu futuro en la cocina comienza aquí"
             descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
 Praesent libero. Sed cursus ante dapibus diam."
             img="./src/assets/fotos/cocinero.jpg"

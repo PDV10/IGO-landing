@@ -31,6 +31,7 @@ export default function Header() {
           smooth={true}
           duration={500}
           className="flex items-center text-white hover:text-gray-500 transition-transform duration-50 hover:scale-125"
+          onClick={() => setOpenNav(false)}
         >
           <img
             className="flex items-center justify-center m-0  w-10 h-auto"
