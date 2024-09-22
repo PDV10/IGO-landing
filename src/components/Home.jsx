@@ -1,6 +1,10 @@
+import { Element } from "react-scroll";
 export default function Home() {
   return (
-    <section className="relative min-h-screen bg-[url('./src/assets/IMG-MAIN-HOME-FONDO.jpg')] bg-cover bg-center flex justify-center md:justify-start items-center">
+    <Element
+      name="Home"
+      className="relative min-h-screen bg-[url('./src/assets/IMG-MAIN-HOME-FONDO.jpg')] bg-cover bg-center flex justify-center md:justify-start items-center"
+    >
       <div className="absolute bottom-0 left-0 w-full h-2/4 bg-gradient-to-t from-gray-100 to-transparent"></div>
 
       <div className="relative flex flex-col items-center md:items-start text-center md:text-left md:pl-[9rem]">
@@ -18,6 +22,6 @@ export default function Home() {
           Ver más
         </button>
       </div>
-    </section>
+    </Element>
   );
 }

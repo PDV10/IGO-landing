@@ -1,6 +1,7 @@
+import { Element } from "react-scroll";
 export default function Equipo() {
   return (
-    <section className="w-full p-3 bg-gray-100">
+    <Element name="Conocenos" className="w-full p-3 bg-gray-100">
       <div className="flex flex-col md:flex-row gap-2 mb-8">
         <div className="grid grid-cols-2 gap-2 w-full md:w-1/2 md:p-[50px]">
           <div className="row-span-3 flex items-center justify-center w-auto h-auto rounded-md shadow-[0px_0px_6px_rgba(0,0,0,8)]">
@@ -65,6 +66,6 @@ export default function Equipo() {
           </div>
         </div>
       </div>
-    </section>
+    </Element>
   );
 }

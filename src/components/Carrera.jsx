@@ -1,5 +1,6 @@
 import { useState } from "react";
 import CarreraCard from "./CarreraCard";
+import { Element } from "react-scroll";
 
 export default function Carrera() {
   let [carreraActual, setCarreraActual] = useState("Cocinero");
@@ -10,8 +11,8 @@ export default function Carrera() {
 
   return (
     <>
-      <section
-        id="carrera"
+      <Element
+        name="Carrera"
         className="pt-14 pb-10 md:pb-5 w-full bg-gray-400 min-h-screen flex flex-col items-center"
       >
         <h1 className="text-white text-2xl text-center">Conoce nuestras</h1>
@@ -63,7 +64,7 @@ Praesent libero. Sed cursus ante dapibus diam."
             img="./src/assets/fotos/pastelero.jpg"
           />
         )}
-      </section>
+      </Element>
     </>
   );
 }
