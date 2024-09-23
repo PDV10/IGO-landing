@@ -3,9 +3,9 @@ export default function Home() {
   return (
     <Element
       name="Home"
-      className="relative min-h-screen bg-[url('./src/assets/IMG-MAIN-HOME-FONDO.jpg')] bg-cover bg-center flex justify-center md:justify-start items-center"
+      className="relative min-h-screen bg-[url('./src/assets/IMG-HOME-PRINCIPAL.jpg')] bg-cover bg-center flex justify-center md:justify-start items-center"
     >
-      <div className="absolute bottom-0 left-0 w-full h-2/4 bg-gradient-to-t from-gray-100 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 w-full h-2/4 bg-gradient-to-t from-gray-400 to-transparent"></div>
 
       <div className="relative flex flex-col items-center md:items-start text-center md:text-left md:pl-[9rem]">
         <h1 className="sm:py-10 text-6xl sm:text-5xl md:text-6xl font-bold text-black md:py-4 lg:text-[4.375rem]">
