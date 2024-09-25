@@ -1,6 +1,7 @@
 import Home from "../Home";
 import Equipo from "../Equipo";
 import Carrera from "../Carrera";
+import OfertasEducativas from "../OfertasEducativas";
 
 export default function Main() {
   return (
@@ -8,6 +9,7 @@ export default function Main() {
       <Home />
       <Carrera />
       <Equipo />
+      <OfertasEducativas />
     </>
   );
 }
