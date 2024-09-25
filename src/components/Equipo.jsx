@@ -53,15 +53,15 @@ export default function Equipo() {
         </div>
       </div>
 
-      <div className="mx-auto my-0 bg-transparent text-center w-full md:w-2/4">
-        <div className="grid grid-rows-3 gap-2 border-2 border-black rounded-2xl">
-          <div className="flex items-center justify-center p-4 rounded-md">
+      <div className="mx-auto text-center w-full md:w-1/2">
+        <div className="flex flex-col xl:flex-row justify-evenly gap-2 border-2 border-black rounded-2xl py-2">
+          <div className="flex items-center justify-center md:p-4 ">
             <p className="text-lg font-semibold">+300 alumnos</p>
           </div>
-          <div className="flex items-center justify-center p-4 rounded-md">
+          <div className="flex items-center justify-center md:px-10 xl:border-r-2 xl:border-black  xl:border-l-2 xl:border-black">
             <p className="text-lg font-semibold">Equipos de alta tecnología</p>
           </div>
-          <div className="flex items-center justify-center p-4 rounded-md">
+          <div className="flex items-center justify-center md:p-4 rounded-md">
             <p className="text-lg font-semibold">Titulación oficial</p>
           </div>
         </div>
