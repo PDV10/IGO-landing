@@ -15,15 +15,19 @@ export default function Carrera() {
         name="Carrera"
         className="pt-14 pb-10 md:pb-5 w-full bg-gray-400 min-h-screen flex flex-col items-center"
       >
-        <h1 className="text-white text-2xl text-center">Conoce nuestras</h1>
-        <h2 className="font-black italic text-white text-2xl text-center pb-5">
-          Carreras profesionales
-        </h2>
+        <section className="flex flex-col lg:flex-row lg:gap-2 ">
+          <h1 className="font-kabrio  text-black text-2xl text-center">
+            Conoce nuestras
+          </h1>
+          <h2 className="font-kabrio font-bold italic text-black text-3xl text-center pb-5">
+            Carreras profesionales
+          </h2>
+        </section>
         <div className="bg-gray-300 bg-opacity-80 w-[90%] md:w-[85%] lg:w-[80%] h-14 rounded-t-xl ">
-          <ul className="flex justify-evenly h-full">
-            <li className="flex items-center justify-center text-sm font-bold">
+          <ul className="flex justify-evenly h-full font-boring font-medium">
+            <li className="flex items-center justify-center text-sm ">
               <button
-                className={`px-2 py-1 cursor-pointer rounded-lg ${
+                className={`px-2 py-1 cursor-pointer rounded-lg  ${
                   carreraActual === "Cocinero"
                     ? "bg-black text-white"
                     : "bg-transparent text-black"
