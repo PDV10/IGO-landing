@@ -37,7 +37,10 @@ export default function OfertasEducativas() {
 
   return (
     <>
-      <section className=" bg-gradient-to-b from-white to-gray-500 p-2 ">
+      <section
+        id="ofertas-educativas"
+        className="bg-gradient-to-b from-white to-gray-500 p-2 "
+      >
         <div className="p-5 lg:flex justify-center gap-2">
           <h1 className="text-center font-medium text-xl lg:text-2xl xl:text-3xl">
             Explora nuestras
@@ -97,8 +100,10 @@ export default function OfertasEducativas() {
                   className="relative flex justify-center mb-10 lg:mb-20"
                 >
                   <div className="absolute w-[290px] h-full flex flex-col justify-end items-start text-start text-black z-10 p-8">
-                    <h2 className="text-xl font-bold">{ofertas.titulo}</h2>
-                    <p className="text-[13px] font-bold mt-3 text-start">
+                    <h2 className="text-xl font-boring font-bold ">
+                      {ofertas.titulo}
+                    </h2>
+                    <p className="text-[13px]  mt-3 text-start font-boring font-medium">
                       {ofertas.descripcion}
                     </p>
                   </div>
@@ -136,7 +141,7 @@ export default function OfertasEducativas() {
                     <div className="absolute inset-0 flex justify-center items-center text-center text-white z-20 p-4 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
                       <div className="w-64 flex flex-col justify-center items-center">
                         <h2 className="text-2xl font-bold">{ofertas.titulo}</h2>
-                        <p>{ofertas.descripcion}</p>
+                        <p className="font-boring">{ofertas.descripcion}</p>
                       </div>
                     </div>
                   </div>

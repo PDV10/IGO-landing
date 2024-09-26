@@ -1,3 +1,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Boring Sans";
+  src: url("./assets/fonts/Boring/Boring-Sans-A-Light-trial.ttf")
+    format("truetype");
+  font-weight: 300; /* Peso para Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boring Sans";
+  src: url("./assets/fonts/Boring/Boring-Sans-A-Regular-trial.ttf")
+    format("truetype");
+  font-weight: 400; /* Peso para Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boring Sans";
+  src: url("./assets/fonts/Boring/Boring-Sans-A-Medium-trial.ttf")
+    format("truetype");
+  font-weight: 500; /* Peso para Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boring Sans";
+  src: url("./assets/fonts/Boring/Boring-Sans-A-Bold-trial.ttf")
+    format("truetype");
+  font-weight: 700; /* Peso para Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boring Sans";
+  src: url("./assets/fonts/Boring/Boring-Sans-A-Heavy-trial.ttf")
+    format("truetype");
+  font-weight: 800; /* Peso para Heavy */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kabrio";
+  src: url("./assets/fonts/Boring/Kabrio-Light-trial.ttf") format("truetype");
+  font-weight: 300; /* Peso para Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kabrio";
+  src: url("./assets/fonts/Boring/Kabrio-Book-trial.ttf") format("truetype");
+  font-weight: 400; /* Peso para Book */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kabrio";
+  src: url("./assets/fonts/Boring/Kabrio-Regular-trial.ttf") format("truetype");
+  font-weight: 500; /* Peso para Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kabrio";
+  src: url("./assets/fonts/Boring/Kabrio-Bold-trial.ttf") format("truetype");
+  font-weight: 700; /* Peso para Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kabrio";
+  src: url("./assets/fonts/Boring/Kabrio-Extrabold-trial.ttf")
+    format("truetype");
+  font-weight: 800; /* Peso para Extrabold */
+  font-style: normal;
+}
