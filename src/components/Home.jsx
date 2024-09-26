@@ -22,8 +22,8 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="mx-auto -ml-1/2 -mr-1/2 translate-y-35 xl:translate-y-20 ">
-          <button className="bg-black text-white font-bold p-4 xl:p-6 xl:text-xl sm:translate-y-24 xl:translate-y-2 rounded-3xl transition-all duration-300 hover:bg-gray-800 hover:scale-105 flex items-center">
+        <div className="mx-auto -ml-1/2 -mr-1/2 translate-y-35 xl:translate-y-20">
+          <button className="bg-black text-white font-bold p-4 xl:p-6 xl:text-xl sm:translate-y-24 xl:translate-y-2 rounded-3xl transition-all duration-300 hover:animate-gray-scale hover:scale-110 flex items-center">
             <p className="xl:text-4xl mr-4 uppercase">inscripciones 2025</p>
             <img
               src="../../src/assets/iconos/ICON-CHECK.png"
