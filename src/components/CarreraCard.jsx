@@ -1,4 +1,10 @@
-export default function CarreraCard({ carrera, titulo, descripcion, img }) {
+export default function CarreraCard({
+  carrera,
+  titulo,
+  descripcion,
+  descripcionMobile,
+  img,
+}) {
   return (
     <div className="card flex flex-col md:flex-row justify-between w-full lg:w-[95%] bg-white bg-gradient-to-t from-white to-transparent shadow-2xl rounded-2xl p-5 md:p-10 ">
       <div className="card-body items-center text-center md:max-w-[45%] ">
@@ -9,7 +15,7 @@ export default function CarreraCard({ carrera, titulo, descripcion, img }) {
           {titulo}
         </h1>
         <p className="text-start text-sm md:text-lg text-gray-700">
-          {descripcion}
+          {window.innerWidth < 960 ? descripcionMobile : descripcion}
         </p>
       </div>
       <figure className="pt-3 md:pt-0 flex justify-center md:max-w-[50%] max-h-[600px]">
