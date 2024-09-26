@@ -25,6 +25,18 @@ module.exports = withMT({
         boring: ["Boring Sans", "sans-serif"],
         kabrio: ["Kabrio", "sans-serif"],
       },
+      keyframes: {
+        "gray-scale": {
+          "0%": { backgroundColor: "#1a1a1a" },
+          "20%": { backgroundColor: "#333333" },
+          "50%": { backgroundColor: "#666666" },
+          "80%": { backgroundColor: "#333333" },
+          "100%": { backgroundColor: "#1a1a1a" },
+        },
+      },
+      animation: {
+        "gray-scale": "gray-scale 1.2s ease-in-out infinite",
+      },
     },
   },
   plugins: [],
