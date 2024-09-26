@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="mx-auto px-1 md:px-6 py-3 bg-black w-full ">
         <div className="flex flex-row flex-wrap items-center  justify-evenly xl:justify-between gap-y-6 gap-x-4 md:gap-x-12 bg-black text-center">
-          <div className="flex flex-col h-100 border-r-2 pr-5 md:pr-20">
+          <div className="flex flex-col h-100 border-r-2 pr-5 md:pr-20 ">
             <Typography
               color="blue-gray"
               className=" text-gris-claro flex items-center font-semibold"
@@ -104,11 +104,7 @@ export default function Footer() {
               </li>
             </div>
           </ul>
-          <img
-            src="./img/IGO-logo.png.png"
-            alt="logo-ct"
-            className="w-10"
-          />
+          <img src="./img/IGO-logo.png.png" alt="logo-ct" className="w-10" />
         </div>
       </footer>
     </>

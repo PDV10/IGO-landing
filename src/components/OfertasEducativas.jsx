@@ -50,6 +50,7 @@ export default function OfertasEducativas() {
           </h2>
         </div>
         {window.innerWidth < 1024 ? (
+          /* version MOBILE */
           <Carousel
             className=" h-full rounded-xl"
             navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -100,10 +101,10 @@ export default function OfertasEducativas() {
                   className="relative flex justify-center mb-10 lg:mb-20"
                 >
                   <div className="absolute w-[290px] h-full flex flex-col justify-end items-start text-start text-black z-10 p-8">
-                    <h2 className="text-xl font-boring font-bold ">
+                    <h2 className="text-xl font-kabrio font-bold italic">
                       {ofertas.titulo}
                     </h2>
-                    <p className="text-[13px]  mt-3 text-start font-boring font-medium">
+                    <p className="text-[13px] mt-3 text-start font-boring font-medium">
                       {ofertas.descripcion}
                     </p>
                   </div>
@@ -121,6 +122,7 @@ export default function OfertasEducativas() {
             })}
           </Carousel>
         ) : (
+          /* Version desktop */
           <>
             <section className="flex flex-row gap-6 xl:gap-10 px-5 xl:px-10">
               {ofertasEducativos.map((ofertas) => {
@@ -140,8 +142,12 @@ export default function OfertasEducativas() {
                     {/* Contenedor del texto, centrado */}
                     <div className="absolute inset-0 flex justify-center items-center text-center text-white z-20 p-4 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
                       <div className="w-64 flex flex-col justify-center items-center">
-                        <h2 className="text-2xl font-bold">{ofertas.titulo}</h2>
-                        <p className="font-boring">{ofertas.descripcion}</p>
+                        <h2 className="text-2xl font-kabrio font-bold italic">
+                          {ofertas.titulo}
+                        </h2>
+                        <p className="font-boring font-light">
+                          {ofertas.descripcion}
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -151,25 +157,21 @@ export default function OfertasEducativas() {
           </>
         )}
       </section>
-      <section className="relative bg-[url('../../src/assets/fotos/pasteleria3.jpg')] bg-cover bg-center w-100 h-40 ">
+      <section className="relative bg-[url('../../src/assets/fotos/pasteleria3.jpg')] bg-cover bg-center w-100 h-40 font-boring  lg:text-lg lg:font-semibold text-white">
         {/* Capa para oscurecer fondo  */}
         <div className="absolute inset-0 bg-black opacity-70"></div>
 
         <div className="absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4 h-20 border-2 rounded-xl mx-auto text-center w-[95%] flex justify-evenly">
           <div className="flex items-center justify-center ">
-            <p className="lg:text-lg lg:font-semibold text-white">
-              +300 alumnos
+            <p className="">
+              <span className="font-sans">+300</span> alumnos
             </p>
           </div>
           <div className="flex items-center justify-center border-x-white border-x-[1px] my-2 sm:px-2 md:px-10 lg:px-20 ">
-            <p className="lg:text-lg lg:font-semibold text-white">
-              Equipos de alta tecnología
-            </p>
+            <p className="">Equipos de alta tecnología</p>
           </div>
           <div className="flex items-center justify-center rounded-xl">
-            <p className="lg:text-lg lg:font-semibold text-white">
-              Titulación oficial
-            </p>
+            <p className="">Titulación oficial</p>
           </div>
         </div>
       </section>
