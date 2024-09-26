@@ -21,6 +21,10 @@ module.exports = withMT({
       boxShadow: {
         centrada: "2px 2px 2px rgba(0, 0, 0, 0.8)",
       },
+      fontFamily: {
+        boring: ["Boring Sans", "sans-serif"],
+        kabrio: ["Kabrio", "sans-serif"],
+      },
     },
   },
   plugins: [],
