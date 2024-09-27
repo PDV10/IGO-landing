@@ -9,21 +9,18 @@ export default function Home() {
 
       <div className="relative flex flex-col items-start w-full pl-1 msm:pl-10">
         <div className="mb-44">
-          <h1 className="text-black cursor-default sm:text-5xl md:text-6xl lg:pt-10 xl:pt-10 xl:pl-32 lg:text-8xl text-left uppercase font-kabrio font-bold">
+          <h1 className="text-black cursor-default sm:text-5xl md:text-6xl lg:pt-10 xl:pt-24 xl:pl-32 lg:text-8xl text-left uppercase font-kabrio font-bold">
             <span className="block mb-2 hover:opacity-100 transition-opacity duration-500 opacity-50">
-              Descubre
+              Descubre el
             </span>
             <span className="block mb-2 hover:opacity-100 transition-opacity duration-500 opacity-50">
-              el arte
-            </span>
-            <span className="block hover:opacity-100 transition-opacity duration-500 opacity-50">
-              culinario
+              arte culinario
             </span>
           </h1>
         </div>
 
-        <div className="mx-auto -ml-1/2 -mr-1/2 translate-y-35 xl:translate-y-20">
-          <button className="bg-black text-white  p-4 xl:p-6 xl:text-xl sm:translate-y-24 xl:translate-y-2 rounded-3xl transition-all duration-300 hover:animate-gray-scale hover:scale-110 flex items-center">
+        <div className="mx-auto -ml-1/2 -mr-1/2 translate-y-35 xl:translate-y-15">
+          <button className="bg-black text-white  p-4 xl:p-6 xl:text-xl sm:translate-y-24 xl:translate-y-1 rounded-3xl transition-all duration-300 hover:animate-gray-scale hover:scale-110 flex items-center">
             <p className="text-xl xl:text-4xl mr-4 font-boring">
               Inscripciones <span className="font-sans">2025</span>
             </p>
