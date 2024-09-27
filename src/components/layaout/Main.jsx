@@ -5,11 +5,11 @@ import OfertasEducativas from "../OfertasEducativas";
 
 export default function Main() {
   return (
-    <>
+    <div className="bg-gray-400">
       <Home />
       <Carrera />
       <Equipo />
       <OfertasEducativas />
-    </>
+    </div>
   );
 }

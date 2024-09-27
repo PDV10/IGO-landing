@@ -13,7 +13,7 @@ export default function Carrera() {
     <>
       <Element
         name="Carrera"
-        className="pt-14 pb-10 md:pb-5 w-full bg-gray-400 min-h-screen flex flex-col items-center"
+        className="pt-5 w-full bg-gray-400 min-h-screen flex flex-col items-center "
       >
         <section className="flex flex-col lg:flex-row lg:gap-2 ">
           <h1 className="font-kabrio  text-black text-2xl text-center">
