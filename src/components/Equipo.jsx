@@ -39,10 +39,10 @@ export default function Equipo() {
 
         <div className="flex items-center justify-center w-full md:w-1/2">
           <div className="text-center p-6">
-            <h2 className=" md:pb-[50px] text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4">
+            <h2 className=" md:pb-[50px] text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-kario font-bold mb-4">
               Nuestro equipo docente!
             </h2>
-            <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl">
+            <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-boring font-light md:font-normal">
               En IGO, contamos con un equipo docente de excelencia, integrado
               por profesionales de la gastronomía con amplia experiencia y una
               verdadera vocación. Cada uno de nuestros docentes se dedica a
