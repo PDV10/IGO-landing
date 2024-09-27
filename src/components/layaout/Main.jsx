@@ -2,6 +2,7 @@ import Home from "../Home";
 import Equipo from "../Equipo";
 import Carrera from "../Carrera";
 import OfertasEducativas from "../OfertasEducativas";
+import Form from "../Form";
 
 export default function Main() {
   return (
@@ -10,6 +11,7 @@ export default function Main() {
       <Carrera />
       <Equipo />
       <OfertasEducativas />
+      <Form />
     </div>
   );
 }

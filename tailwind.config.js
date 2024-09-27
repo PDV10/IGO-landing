@@ -19,7 +19,7 @@ module.exports = withMT({
         xl: "1280px",
       },
       boxShadow: {
-        centrada: "2px 2px 2px rgba(0, 0, 0, 0.8)",
+        centrada: "0px 0px 15px rgba(0, 0, 0, 0.5)",
       },
       fontFamily: {
         boring: ["Boring Sans", "sans-serif"],
