@@ -13,14 +13,14 @@ export default function Carrera() {
     <>
       <Element
         name="Carrera"
-        className="pt-14 pb-10 md:pb-5 w-full bg-gray-400 min-h-screen flex flex-col items-center"
+        className="pt-5 w-full bg-gray-400 min-h-screen flex flex-col items-center "
       >
-        <h1 className="text-white text-2xl text-center">Conoce nuestras</h1>
-        <h2 className="font-black italic text-white text-2xl text-center pb-5">
+        <h1 className="text-black text-2xl text-center">Conoce nuestras</h1>
+        <h2 className="font-black italic text-black text-2xl text-center pb-5">
           Carreras profesionales
         </h2>
-        <div className="bg-gray-300 bg-opacity-80 w-[90%] md:w-[85%] lg:w-[80%] h-14 rounded-t-xl ">
-          <ul className="flex justify-evenly h-full">
+        <div className="bg-gray-300 bg-opacity-80 w-[90%] md:w-[85%] lg:w-[45%] h-14 rounded-t-xl md:self-baseline md:ml-20 ">
+          <ul className="flex justify-evenly h-full ">
             <li className="flex items-center justify-center text-sm font-bold">
               <button
                 className={`px-2 py-1 cursor-pointer rounded-lg ${

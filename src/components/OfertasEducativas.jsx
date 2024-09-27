@@ -39,7 +39,7 @@ export default function OfertasEducativas() {
     <>
       <section
         id="ofertas-educativas"
-        className="bg-gradient-to-b from-white to-gray-500 p-2 "
+        className="bg-gradient-to-b from-white to-gray-500 p-2 rounded-3xl "
       >
         <div className="p-5 lg:flex justify-center gap-2">
           <h1 className="text-center font-medium text-xl lg:text-2xl xl:text-3xl">

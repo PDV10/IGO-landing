@@ -6,7 +6,7 @@ export default function CarreraCard({
   img,
 }) {
   return (
-    <div className="card flex flex-col md:flex-row justify-between w-full lg:w-[95%] bg-white bg-gradient-to-t from-white to-transparent shadow-2xl rounded-2xl p-5 md:p-10 ">
+    <div className="card flex flex-col md:flex-row justify-between w-full lg:w-[95%] bg-white bg-gradient-to-t from-gray-400 to-transparent rounded-2xl pt-5 px-5 md:px-10 md:pt-10 ">
       <div className="card-body items-center text-center md:max-w-[45%] ">
         <h2 className="card-title text-start uppercase text-sm md:font-semibold ">
           {carrera}
