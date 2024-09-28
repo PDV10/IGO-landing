@@ -37,7 +37,31 @@ module.exports = withMT({
       animation: {
         "gray-scale": "gray-scale 1.2s ease-in-out infinite",
       },
+      textShadow: {
+        sm: "0px 0px 15px rgba(0, 0, 0, 0.5)",
+        md: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+        lg: "3px 3px 6px rgba(0, 0, 0, 0.5)",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".text-shadow-sm": {
+          textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)",
+        },
+        ".text-shadow-md": {
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+        },
+        ".text-shadow-lg": {
+          textShadow: "3px 3px 6px rgba(0, 0, 0, 0.5)",
+        },
+        ".text-shadow-none": {
+          textShadow: "none",
+        },
+      };
+
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 });
