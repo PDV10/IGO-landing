@@ -24,6 +24,7 @@ module.exports = withMT({
       fontFamily: {
         boring: ["Boring Sans", "sans-serif"],
         kabrio: ["Kabrio", "sans-serif"],
+        KabrioBook: ["KabrioBook", "sans-serif"],
       },
       keyframes: {
         "gray-scale": {
