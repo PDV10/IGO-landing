@@ -10,20 +10,28 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 const opciones = [
   {
+    id: 1,
     opcion: "Cursos y carreras",
     to: "Carrera",
+    offset: -100,
   },
   {
-    opcion: "Conocenos",
+    id: 2,
+    opcion: "Conócenos",
     to: "Conocenos",
+    offset: -20,
   },
   {
+    id: 3,
     opcion: "Ofertas Educativas",
     to: "ofertas-educativas",
+    offset: -110,
   },
   {
-    opcion: "Inscríbete",
-    to: "Inscríbete",
+    id: 4,
+    opcion: "Consúltanos ",
+    to: "form-consulta",
+    offset: 0,
   },
 ];
 
@@ -89,11 +97,13 @@ function NavList({ setOpenNav, openNav }) {
             variant="small"
             color="blue-gray"
             className="p-1 font-medium"
+            key={op.id}
           >
             <Link
               to={op.to}
               smooth={true}
               duration={500}
+              offset={op.offset}
               className="flex items-center text-white hover:text-gray-500 transition-transform duration-50 hover:scale-125"
               onClick={() => setOpenNav(false)}
             >

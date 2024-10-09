@@ -1,4 +1,4 @@
-import { Element } from "react-scroll";
+import { Element, Link } from "react-scroll";
 export default function Home() {
   return (
     <Element
@@ -18,8 +18,12 @@ export default function Home() {
             Conviértete en un profesional gastronómico
           </p>
         </div>
-
-        <div className="mx-auto -ml-1/2 -mr-1/2 translate-y-35 xl:translate-y-15">
+        <Link
+          to="form-consulta"
+          smooth={true}
+          duration={500}
+          className="mx-auto "
+        >
           <button className="bg-black text-white  p-4 xl:p-6 xl:text-xl sm:translate-y-24 xl:translate-y-1 rounded-3xl transition-all duration-300 hover:animate-gray-scale hover:scale-110 flex items-center">
             <p className="text-xl xl:text-4xl mr-4 font-boring">
               Inscripciones <span className="font-sans">2025</span>
@@ -30,7 +34,7 @@ export default function Home() {
               className="xl:w-[60px] w-[40px] h-auto"
             />
           </button>
-        </div>
+        </Link>
       </div>
     </Element>
   );
