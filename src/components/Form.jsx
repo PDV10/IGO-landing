@@ -131,7 +131,7 @@ export default function Form() {
           </h1>
           <p className="text-gray-600 mb-6 text-center text-sm md:text-base">
             Completa el formulario y te brindaremos toda la información sobre la
-            inscripción a las carreras
+            inscripción a los cursos
           </p>
           <form onSubmit={sendEmail} ref={form} className="space-y-4">
             {/* Nombre y apellido */}
@@ -240,7 +240,7 @@ export default function Form() {
               </label>
             </div>
 
-            {/* Carrera Profesional */}
+            {/* Curso Profesional */}
             <div className="relative">
               <select
                 name="career"
@@ -256,7 +256,7 @@ export default function Form() {
                 } appearance-none focus:outline-none focus:ring-0 peer`}
                 required
               >
-                <option value="">Carrera Profesional</option>
+                <option value="">Curso Profesional</option>
                 <option value="Cocinero profesional">
                   Cocinero profesional
                 </option>
@@ -276,7 +276,7 @@ export default function Form() {
                   } 
                   `}
               >
-                Carrera Profesional
+                Curso Profesional
               </label>
             </div>
 

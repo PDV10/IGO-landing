@@ -11,7 +11,7 @@ import { Link } from "react-scroll";
 const opciones = [
   {
     id: 1,
-    opcion: "Cursos y carreras",
+    opcion: "Cursos profesionales",
     to: "Carrera",
     offset: -100,
   },
